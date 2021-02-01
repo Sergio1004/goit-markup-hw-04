@@ -551,12 +551,6 @@ p {
   max-width: 370px;
 }
 
-.portfolio-list-item:focus,
-.portfolio-list-item:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
 .portfolio-list-item:nth-child(3n + 3) {
   margin-right: 0px;
 }
@@ -567,6 +561,12 @@ p {
 
 .portfolio-link {
   text-decoration: none;
+}
+
+.portfolio-link:focus,
+.portfolio-link:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-card {
